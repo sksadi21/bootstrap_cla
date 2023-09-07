@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>utilities</title>
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+   <style>
+      span {
+        display: inline-block;
+        width: 80px;
+        height: 80px;
+        margin: 10px;
+        background-color: yellow;
+      }
+      </style>
+</head>
+<body>
+   <div class="container mt-5">
+      <h2>Borders</h2> 
+    
+      <span class="border border-5"></span>
+      <span class="border border-0"></span>
+      <span class="border border-5 border-top-0"></span>
+      <span class="border border-5 border-end-0"></span>
+      <span class="border border-5 border-bottom-0"></span>
+      <span class="border border-5 border-start-0"></span>
+      <br>
+      
+      <span class="border-top border-5"></span>
+      <span class="border-end border-5"></span>
+      <span class="border-bottom border-5"></span>
+      <span class="border-start border-5"></span>
+    </div>
+
+    <div class="container mt-5">
+      <h2>Border Width</h2>
+    
+      <span class="border border-1"></span>
+      <span class="border border-2"></span>
+      <span class="border border-3"></span>
+      <span class="border border-4"></span>
+      <span class="border border-5"></span>
+    </div>
+
+    <div class="container mt-5">
+      <h2>Borders</h2>
+      <span class="border border-primary"></span>
+      <span class="border border-secondary"></span>
+      <span class="border border-success"></span>
+      <span class="border border-danger"></span>
+      <span class="border border-warning"></span>
+      <span class="border border-info"></span>
+      <span class="border border-light"></span>
+      <span class="border border-dark"></span>
+      <span class="border border-white"></span>
+    </div>
+
+    <div class="container mt-5">
+      <h2>Borders</h2>
+      <span class="rounded"></span>
+      <span class="rounded-top"></span>
+      <span class="rounded-end"></span>
+      <span class="rounded-bottom"></span>
+      <span class="rounded-start"></span>
+      <span class="rounded-circle"></span>
+      <span class="rounded-pill" style="width:130px"></span>
+      <br>
+      <span class="rounded-0"></span>
+      <span class="rounded-1"></span>
+      <span class="rounded-2"></span>
+      <span class="rounded-3"></span>
+      <span class="rounded-4"></span>
+      <span class="rounded-5"></span>
+    </div>
+
+    <div class="container mt-5">
+      <h2>Float</h2>
+      <div class="clearfix">
+        <span class="float-start p-3">Float left</span>
+        <span class="float-end p-3">Float right</span>
+      </div>
+    </div>
+
+    <div class="container mt-5">
+      <h2>Responsive Floats</h2> 
+      <div class="clearfix">
+        <div class="float-sm-end">Float right on small screens or wider</div><br>
+        <div class="float-md-end">Float right on medium screens or wider</div><br>
+        <div class="float-lg-end">Float right on large screens or wider</div><br>
+        <div class="float-xl-end">Float right on extra large screens or wider</div><br>
+        <div class="float-xxl-end">Float right on XXL screens or wider</div><br>
+        <div class="float-none">Float none</div>
+      </div>
+    </div>
+
+    <div class="container mt-5">
+      <h1>Horizontal Centering</h1>
+      <div class="mx-auto bg-warning" style="width:150px">Centered</div>
+    </div>
+
+    <div class="container mt-5">
+      <h1>Width Utilities</h1>
+      <div class="w-25 bg-warning">Width 25%</div>
+      <div class="w-50 bg-warning">Width 50%</div>
+      <div class="w-75 bg-warning">Width 75%</div>
+      <div class="w-100 bg-warning">Width 100%</div>
+      <div class="w-auto bg-warning">Auto Width</div>
+      <div class="mw-100 bg-warning">Max Width 100%</div>
+    </div>
+
+    <div class="container mt-5">
+      <h1>Spacing Utilities</h1>
+      <div class="pt-4 bg-warning">I only have a top padding (1.5rem)</div>
+      <div class="p-5 bg-success">I have a padding on all sides (3rem)</div>
+      <div class="m-5 pb-5 bg-info">I have a margin on all sides (3rem) and a bottom padding (3rem)</div>
+    </div>
+
+    <div class="container mt-5">
+      <h1>Shadows</h1>
+      <div class="shadow-none p-4 mb-4 bg-light">No shadow</div>
+      <div class="shadow-sm p-4 mb-4 bg-white">Small shadow</div>
+      <div class="shadow p-4 mb-4 bg-white">Default shadow</div>
+      <div class="shadow-lg p-4 mb-4 bg-white">Large shadow</div>
+    </div>
+
+    <div class="container mt-5">
+      <h1>Vertical Align</h1>
+      <span class="align-baseline me-1">baseline</span>
+      <span class="align-top me-1">top</span>
+      <span class="align-middle me-1">middle</span>
+      <span class="align-bottom me-1">bottom</span>
+      <span class="align-text-top me-1">text-top</span>
+      <span class="align-text-bottom me-1">text-bottom</span>
+    </div>
+
+    <div class="container mt-5">
+      <h2>Aspect Ratio</h2>
+      <p>Create a responsive video and scale it nicely to the parent element.</p>
+      
+      <h2>Aspect ratio 1:1</h2>
+      <div class="ratio ratio-1x1">
+        <iframe src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+      </div>
+      <br>
+      
+      <h2>Aspect ratio 4:3</h2>
+      <div class="ratio ratio-4x3">
+        <iframe src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+      </div> 
+      <br>
+      
+      <h2>Aspect ratio 16:9</h2>
+      <div class="ratio ratio-16x9">
+        <iframe src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+      </div>
+      <br>
+        
+      <h2>Aspect ratio 21:9</h2>
+      <div class="ratio ratio-21x9">
+        <iframe src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+      </div>
+    </div>
+    
+    <div class="container mt-5">
+      <h1>Visibility</h1>
+      <div class="visible bg-success">I am visible</div>
+      <div class="invisible bg-warning">I am invisible</div>
+    </div>
+
+    <div class="container mt-5">
+      <h1>Close Icon</h1>
+      <div class="clearfix">
+        <button type="button" class="close">&times;</button>
+      </div>
+    </div>
+
+    <div class="container mt-5">
+      <h2>Screen readers</h2>
+      <span class="visually-hidden">I will be hidden on all screens except for screen readers.</span>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
