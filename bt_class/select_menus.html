@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>select menus</title>
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+   <div class="container mt-5">
+      <h2>Select Menu</h2>
+      <form action="/action_page.php">
+        <label for="sel1" class="form-label">Select list (select one):</label>
+        <select class="form-select" id="sel1" name="sellist1">
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+        </select>
+        <br>
+        
+        <label for="sel2" class="form-label">Mutiple select list (hold shift to select more than one):</label>
+        <select multiple class="form-select" id="sel2" name="sellist2">
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+        </select>
+        <button type="submit" class="btn btn-primary mt-3">Submit</button>
+      </form>
+    </div>
+
+    <div class="container mt-5">
+      <h2>Select Menu Size</h2>
+      <form>
+       <select class="form-select form-select-lg">
+         <option>1</option>
+         <option>2</option>
+         <option>3</option>
+         <option>4</option>
+       </select>
+       
+       <select class="form-select mt-3">
+         <option>1</option>
+         <option>2</option>
+         <option>3</option>
+         <option>4</option>
+       </select>
+       
+       <select class="form-select form-select-sm mt-3">
+         <option>1</option>
+         <option>2</option>
+         <option>3</option>
+         <option>4</option>
+       </select>
+      </form>    
+    </div>
+
+    <div class="container mt-5">
+      <h2>Select Menu Size</h2>
+      <form>
+       <select class="form-select" disabled>
+         <option>1</option>
+         <option>2</option>
+         <option>3</option>
+         <option>4</option>
+       </select>
+      </form>    
+    </div>
+
+    <div class="container mt-5 pb-5">
+      <h2>Data List</h2>
+      <form action="/action_page.php">
+        <label for="browser" class="form-label">Choose your browser from the list:</label>
+        <input class="form-control" list="browsers" name="browser" id="browser">
+        <datalist id="browsers">
+          <option value="Edge">
+          <option value="Firefox">
+          <option value="Chrome">
+          <option value="Opera">
+          <option value="Safari">
+        </datalist>    
+        <button type="submit" class="btn btn-primary mt-3">Submit</button>
+      </form>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
